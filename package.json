@@ -1,0 +1,31 @@
+{
+  "name": "local-foods",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "@react-google-maps/api": "^2.19.2",
+    "@react-icons/all-files": "^4.1.0",
+    "@types/google.maps": "^3.53.6",
+    "@types/node": "20.5.0",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.13",
+    "next": "13.4.13",
+    "openai": "^3.3.0",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6"
+  }
+}
