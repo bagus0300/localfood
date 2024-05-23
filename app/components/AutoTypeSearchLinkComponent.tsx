@@ -7,7 +7,7 @@ export default function AutoTypeSearchLinkComponent() {
   const autoTypeTexts = ["Rome", "New York", "Tokyo", "Buenos Aires", "Istanbul"].map(city => city + " ".repeat(15));
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [currentCharIndex, setCurrentCharIndex] = useState(0);
-
+   
   function typeNextChar() {
     if (currentCharIndex <= autoTypeTexts[currentTextIndex].length) {
       setCurrentCharIndex(prevValue => prevValue + 1);
